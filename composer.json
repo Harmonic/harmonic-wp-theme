@@ -1,0 +1,12 @@
+{
+    "name": "harmonic/wordpress-theme",
+    "description": "A basic startup theme for WordPress",
+    "type": "wp-theme",
+    "authors": [
+        {
+            "name": "Anthony Sims",
+            "email": "anthonys@harmonicnewmedia.com"
+        }
+    ],
+    "require": {}
+}
