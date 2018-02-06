@@ -47,7 +47,7 @@ function harmonic_login_image() {
 echo "
 <style>
 body.login #login h1 a {
-background: url('".get_template_directory_uri()."/images/hnm_logo.png') 8px 0 no-repeat transparent;
+background: url('".get_template_directory_uri()."/img/hnm_logo.png') 8px 0 no-repeat transparent;
 height:100px;
 width:320px; }
 
@@ -76,7 +76,7 @@ wp_add_dashboard_widget('custom_help_widget', 'Need Help?', 'custom_dashboard_he
 }
 
 function custom_dashboard_help() {
-echo '<img src="'.get_template_directory_uri().'/images/WP-Admin.png" style="max-width:100%; height:auto;">';
+echo '<img src="'.get_template_directory_uri().'/img/WP-Admin.png" style="max-width:100%; height:auto;">';
 echo '<p>Welcome to the dashboard. If you experience any problems or have any questions please contact us using the details below or <a href="mailto:support@harmonicnewmedia.com">send us an email</a>.</p><ul><li><strong>Call:</strong> +61 8 9227 0003</li><li><strong>Website:</strong> <a href="http://harmonicnewmedia.com">harmonicnewmedia.com</a></li></ul>';
 }
 
@@ -84,12 +84,12 @@ function harmonic_admin_styles() {
   echo "
   <style>
     body {
-      background: url('".get_template_directory_uri()."/images/bird-bg.png') bottom right no-repeat;
+      background: url('".get_template_directory_uri()."/img/bird-bg.png') bottom right no-repeat;
       background-size:420px 420px;
     }
     #wpadminbar #wp-admin-bar-site-name > a:before{
     	content:''!important;
-		background-image: url('".get_template_directory_uri()."/images/bird-bg.png')!important;
+		background-image: url('".get_template_directory_uri()."/img/bird-bg.png')!important;
 		background-size:20px 20px;
 		background-repeat:no-repeat;
 		background-position:center center;
